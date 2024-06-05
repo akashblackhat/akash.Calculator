@@ -1,7 +1,5 @@
 from tkinter import *
-""" developer Akash Ram"""
-""" android & pc game developer """
-""" AKASHRAM8090AS@GMAIL.COM"""
+
 
 def fCalc(src, side):
     appObj = Frame(src, borderwidth=4, bd=2, bg="#cccccc")
@@ -20,7 +18,7 @@ class app(Frame):
         Frame.__init__(self)
         self.option_add("*Font", 'arial 20 bold')
         self.pack(expand=YES, fill=BOTH)
-        self.master.title("Developer Akash Ram (-_-)akashram8090as@gmail.com")
+        self.master.title("Developer ")
         screen_width = root.winfo_screenwidth()
         screen_height = root.winfo_screenheight()
         x = (screen_width / 2) - (width / 2)
